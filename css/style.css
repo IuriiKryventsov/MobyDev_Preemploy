@@ -1,0 +1,344 @@
+html {
+		background-color: #E9EAEB;
+}
+
+body, aside {
+		margin: 0;
+		padding: 0;
+		background: #E9EAEB;
+		height: 800px;
+}
+
+.main {
+		background: lightgrey;
+		height: auto;
+		width: 100%;
+		top: 37px;
+		padding: 20px;
+}
+
+#counter {
+		padding-top: 25px;
+		width: 100%;
+		text-align: center;
+		font-family: 'proxima-nova', sans-serif;
+		z-index: 2;
+		word-wrap: break-word;
+}
+
+.objects-list {
+		border: 1px solid #D1D2D3;
+		background-color: #DBDCDD;
+		margin-top: 15px;
+		padding: 26px 10px 0 10px;
+}
+
+.object {
+		box-sizing: border-box;
+		margin: 30px 10px;
+}
+
+.panel {
+		margin-bottom: 1px;
+}
+
+.panel-footer {
+		margin-top: -1px;
+		border-radius: 0 0 2px 2px;
+		padding: 8px;
+}
+
+.form-control {
+		height: 30px;
+		border-radius: 2px;
+}
+
+.well {
+		border-radius: 2px;
+		padding: 10px;
+}
+
+.img-responsive {
+		float: left;
+		display: inline-block;
+		border-radius: 2px 2px 0 0;
+}
+
+.header {
+		background: #0073D9;
+		border-bottom: rgba(4, 40, 71, 0.8) solid 1px;
+		box-shadow: rgba(111, 151, 182, 0.498039) 0 1px 0 0 inset, rgba(111, 151, 182, 0.2) 0 -1px 0 0 inset, rgba(0, 0, 0, 0.2) 0 1px 1px 0;
+		color: rgb(34, 34, 34);
+		position: fixed;
+		height: auto;
+		width: 100%;
+		z-index: 100;
+}
+
+.logo {
+		background: url(http://1.s.uk.nestoria.nestimg.com/i/realestate/all/all/nestoria_white_100.png) border-box no-repeat;
+		color: rgb(255, 255, 255);
+		display: block;
+		height: 55px;
+		position: relative;
+		text-indent: -359964px;
+		top: 19px;
+		left: 25px;
+		width: 100%;
+}
+
+.button {
+		position: relative;
+		background: #f7f7f7;
+		color: #575157;
+		width: 25%;
+		height: 32px;
+		border: 1px solid #D1D2D3;
+		border-radius: 2px;
+		top: 10%;
+}
+
+#btn {
+		position: relative;
+		left: 36%;
+		margin-bottom: 20px;
+		border: none;
+		color: grey;
+}
+
+.description {
+		display: inline-block;
+		width: 84%;
+		height: 60px;
+		background-color: #f5f5f5;
+		border-radius: 0;
+		margin-bottom: -4px;
+		color: grey;
+}
+
+b {
+		font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		float: left;
+		display: inline-block;
+		margin-left: 10px;
+}
+
+.details {
+		position: absolute;
+		top: 20%;
+		left: 34%;
+		right: 23%;
+		border: 1px solid #D1D2D3;
+		background-color: #f7f8f9;
+		height: auto;
+		width: 400px;
+		border-radius: 5px;
+		border: 1px #bababa solid;
+}
+
+.details-description {
+		padding: 5px;
+		font: 15px 'proxima-nova', sans-serif;
+}
+
+.photo {
+		margin-bottom: 5px;
+		padding: 0;
+		background: #f5f5f5;
+		height: 60px;
+		max-height: 700px;
+}
+
+.shadow {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+		.photo, .information {
+				display: block;
+				width: 100%;
+		}
+
+		.photo {
+				float: left;
+		}
+
+		.information {
+				clear: both;
+		}
+
+		.details {
+				margin-bottom: 5em;
+				width: 320px;
+				position: absolute;
+				top: 12%;
+				left: 0;
+		}
+
+		.description {
+				padding-top: 5px;
+				font-size: 0.8em;
+				word-wrap: break-word;
+				width: 72%
+		}
+
+		#btn {
+				position: relative;
+				left: 32%;
+				width: auto;
+				margin-top: 15px;
+		}
+}
+
+@media screen and (min-width: 341px) and (max-width: 550px) {
+		.photo, .information {
+				display: block;
+				width: 100%;
+		}
+
+		.photo {
+				float: left;
+		}
+
+		.information {
+				clear: both;
+		}
+
+		.details {
+				margin-bottom: 5em;
+				width: 400px;
+				position: absolute;
+				top: 12%;
+				left: 5%;
+		}
+
+		.description {
+				padding-top: 5px;
+				font-size: 0.9em;
+				word-wrap: break-word;
+				width: 73%;
+		}
+
+		#btn {
+				position: relative;
+				left: 32%;
+				width: auto;
+				margin-top: 15px;
+		}
+}
+
+@media screen and (min-width: 551px) and (max-width: 700px) {
+		.photo, .information {
+				display: block;
+				width: 100%;
+		}
+
+		.photo {
+				float: left;
+		}
+
+		.information {
+				clear: both;
+		}
+
+		.details {
+				margin-bottom: 5em;
+				width: 400px;
+				position: absolute;
+				top: 12%;
+				left: 20%;
+		}
+
+		.description {
+				padding-top: 5px;
+				font-size: 0.9em;
+				word-wrap: break-word;
+
+		}
+
+		#btn {
+				position: relative;
+				left: 32%;
+				width: auto;
+				margin-top: 15px;
+		}
+}
+
+@media screen and (min-width: 990px) and (max-width: 1270px) {
+		.photo, .information {
+				display: block;
+				width: 100%;
+		}
+
+		.photo {
+				float: left;
+		}
+
+		.information {
+				clear: both;
+		}
+
+		.details {
+				margin-bottom: 5em;
+				width: 400px;
+				position: absolute;
+				top: 20%;
+				left: 35%;
+		}
+
+		.description {
+				padding-top: 2px;
+				float: left;
+				font-size: 0.9em;
+				word-wrap: break-word;
+				width: 78%;
+
+		}
+
+		#btn {
+				position: relative;
+				left: 38%;
+				width: auto;
+				margin-top: 15px;
+		}
+}
+
+@media screen and (min-width: 1280px) {
+		.photo, .information {
+				display: block;
+				width: 100%;
+		}
+
+		.photo {
+				float: left;
+		}
+
+		.information {
+				clear: both;
+		}
+
+		.details {
+				margin-bottom: 5em;
+				width: 400px;
+				position: absolute;
+				top: 20%;
+				left: 35%;
+		}
+
+		.description {
+				padding-top: 10px;
+				float: left;
+				font-size: 0.9em;
+				word-wrap: break-word;
+				width: 79%;
+
+		}
+
+		#btn {
+				position: relative;
+				left: 38%;
+				width: auto;
+				margin-top: 15px;
+		}
+}

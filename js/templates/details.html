@@ -1,0 +1,16 @@
+<div class="main">
+		<section class="details">
+				<div class="details-description"><strong><%= data[0].price_formatted %></strong></div>
+				<div class="details-description"><strong><%= data[0].title %></strong></div>
+				<img class="img-responsive" src="<%= data[0].img_url %>" alt=""/>
+				<div class="details-description"><%= data[0].bedroom_number %> bed(s)</div>
+				<% if(data[0].bathroom_number){ %>
+				<div class="details-description">
+						<%= data[0].bathroom_number %> bathroom(s)
+				</div>
+				<% } else { %>
+				<div class="details-description">unknown bathrooms</div>
+				<% } %>
+				<div class="details-description"><%= data[0].summary %></div>
+		</section>
+</div>
